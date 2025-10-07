@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency convertor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Currency Convertor </h1>
+        <div class="currency-container"> 
+            <select id="currency1">
+                <option value="AFN" >AFN</option>
+                <option value="ALL" >ALL</option>
+                <option value="DZD" >DZD</option>
+                <option value="USD" >USD</option>
+                <option value="EUR" >EUR</option>
+                <option value="AOA" >AOA</option>
+                <option value="XCD" >XCD</option>
+                <option value="ARS" >ARS</option>
+                <option value="AMD" >AMD</option>
+                <option value="AWG" >AWG</option>
+                <option value="AUD" >AUD</option>
+                <option value="EUD" >EUD</option>
+                <option value="AZN" >AZN</option>
+                <option value="BSD" >BSD</option>
+                <option value="BHD" >BHD</option>
+                <option value="BDT" >BDT</option>
+                <option value="PHP" >PHP</option>
+                <option value="INR" selected>INR</option>
+                <option value="CAD" >CAD</option>
+                <option value="GBP" >GBP</option>
+                <option value="JPY" >JPY</option>
+                <option value="BZD" >BZD</option>
+                <option value="CNY" >CNY</option>
+                <option value="DKK" >DKK</option>
+                <option value="EGP" >EGP</option>
+                <option value="HKD" >HKD</option>
+                <option value="BDT" >BDT</option>
+                <option value="KRW" >KRW</option>
+            </select>
+            <input type="number" id="worth1" value="1" min="0">
+        </div>
+         <div class="currency-container"> 
+            <select id="currency2">
+                <option value="AFN" >AFN</option>
+                <option value="ALL" >ALL</option>
+                <option value="DZD" >DZD</option>
+                <option value="USD" selected>USD</option>
+                <option value="EUR" >EUR</option>
+                <option value="AOA" >AOA</option>
+                <option value="XCD" >XCD</option>
+                <option value="ARS" >ARS</option>
+                <option value="AMD" >AMD</option>
+                <option value="AWG" >AWG</option>
+                <option value="AUD" >AUD</option>
+                <option value="EUD" >EUD</option>
+                <option value="AZN" >AZN</option>
+                <option value="BSD" >BSD</option>
+                <option value="BHD" >BHD</option>
+                <option value="BDT" >BDT</option>
+                <option value="PHP" >PHP</option>
+                <option value="INR" >INR</option>
+                <option value="CAD" >CAD</option>
+                <option value="GBP" >GBP</option>
+                <option value="JPY" >JPY</option>
+                <option value="BZD" >BZD</option>
+                <option value="CNY" >CNY</option>
+                <option value="DKK" >DKK</option>
+                <option value="EGP" >EGP</option>
+                <option value="HKD" >HKD</option>
+                <option value="BDT" >BDT</option>
+                <option value="KRW" >KRW</option>
+
+
+            </select>
+            <input type="number" id="worth2"  disabled>
+        </div>
+        <p class="exchange" id="exchange">1 USD = 138.5802 JPY </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
